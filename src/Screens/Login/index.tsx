@@ -69,7 +69,7 @@ const Login = ({navigation}: Props) => {
   return (
     <Container>
       <FormContainer>
-        <Logo>SNS App</Logo>
+        <Logo>SkkuDong</Logo>
         <Input style={{marginBottom: 16}} placeholder="이메일" />
         <Input
           style={{marginBottom: 16}}
@@ -94,7 +94,7 @@ const Login = ({navigation}: Props) => {
         </SignupText>
       </FormContainer>
       <Footer>
-        <Copyright>SNSApp from dev-yakuza</Copyright>
+        <Copyright>SkkuDong App from skku</Copyright>
       </Footer>
     </Container>
   );
