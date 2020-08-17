@@ -41,7 +41,7 @@ const MyFeedTab = () => {
       <Stack.Screen
         name="MyFeed"
         component={MyFeed}
-        options={{title: 'SNS App'}}
+        options={{title: 'SkkuDong'}}
       />
     </Stack.Navigator>
   );
@@ -76,7 +76,7 @@ const UploadTab = () => {
       <Stack.Screen
         name="Upload"
         component={Upload}
-        options={{title: '사진 업로드'}}
+        options={{title: 'SkkuDong'}}
       />
     </Stack.Navigator>
   );
@@ -88,7 +88,7 @@ const ProfileTab = () => {
       <Stack.Screen
         name="Profile"
         component={Profile}
-        options={{title: 'Profile'}}
+        options={{title: 'SkkuDong'}}
       />
     </Stack.Navigator>
   );

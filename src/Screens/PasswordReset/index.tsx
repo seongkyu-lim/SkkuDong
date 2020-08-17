@@ -41,7 +41,7 @@ const TabContainer = Styled.View`
   margin-bottom: 16px;
 `;
 const HelpLabel = Styled.Text`
-  color: #3796EF;
+  color: #37ef84;
 `;
 const Footer = Styled.View`
   width: 100%;
@@ -50,7 +50,7 @@ const Footer = Styled.View`
   padding: 8px;
 `;
 const GoBack = Styled.Text`
-  color: #3796EF;
+  color: #37ef84;
   text-align: center;
 `;
 

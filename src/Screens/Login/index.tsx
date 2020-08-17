@@ -30,7 +30,7 @@ const Logo = Styled.Text`
 
 const PasswordReset = Styled.Text`
   width: 100%;
-  color: #3796EF;
+  color: #37ef84;
   text-align: right;
   margin-bottom: 24px;
 `;
@@ -40,7 +40,7 @@ const SignupText = Styled.Text`
   text-align: center;
 `;
 const SignupLink = Styled.Text`
-  color: #3796EF;
+  color: #37ef84;
 `;
 
 const Footer = Styled.View`
@@ -82,6 +82,7 @@ const Login = ({navigation}: Props) => {
         <Button
           label="로그인"
           style={{marginBottom: 24}}
+          color="#37ef84"
           onPress={() => {
             login('dev.yakuza@gmail.com', 'password');
           }}
