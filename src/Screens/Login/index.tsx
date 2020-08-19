@@ -1,4 +1,5 @@
 import React, {useContext, useEffect} from 'react';
+import {TouchableOpacity, Text} from 'react-native';
 import Styled from 'styled-components/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import SplashScreen from 'react-native-splash-screen';
@@ -79,14 +80,20 @@ const Login = ({navigation}: Props) => {
         <PasswordReset onPress={() => navigation.navigate('PasswordReset')}>
           비밀번호 재설정
         </PasswordReset>
-        <Button
-          label="로그인"
-          style={{marginBottom: 24}}
-          color="#37ef84"
+        <TouchableOpacity
+          style={{
+            backgroundColor: '#37ef84',
+            marginBottom: 24,
+            width: 230,
+            height: 40,
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
           onPress={() => {
             login('dev.yakuza@gmail.com', 'password');
-          }}
-        />
+          }}>
+          <Text>로그인</Text>
+        </TouchableOpacity>
         <SignupText>
           계정이 없으신가요?{' '}
           <SignupLink onPress={() => navigation.navigate('Signup')}>
