@@ -41,7 +41,13 @@ const MyFeedTab = () => {
       <Stack.Screen
         name="MyFeed"
         component={MyFeed}
-        options={{title: 'SkkuDong'}}
+        options={{
+          title: 'SkkuDong',
+          headerStyle: {
+            backgroundColor: '#89e03d',
+          },
+          headerTintColor: '#fff',
+        }}
       />
     </Stack.Navigator>
   );
@@ -76,7 +82,13 @@ const UploadTab = () => {
       <Stack.Screen
         name="Upload"
         component={Upload}
-        options={{title: 'SkkuDong'}}
+        options={{
+          title: 'SkkuDong',
+          headerStyle: {
+            backgroundColor: '#89e03d',
+          },
+          headerTintColor: '#fff',
+        }}
       />
     </Stack.Navigator>
   );
@@ -88,7 +100,13 @@ const ProfileTab = () => {
       <Stack.Screen
         name="Profile"
         component={Profile}
-        options={{title: 'SkkuDong'}}
+        options={{
+          title: 'SkkuDong',
+          headerStyle: {
+            backgroundColor: '#89e03d',
+          },
+          headerTintColor: '#fff',
+        }}
       />
     </Stack.Navigator>
   );

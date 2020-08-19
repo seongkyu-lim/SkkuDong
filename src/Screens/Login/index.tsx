@@ -92,7 +92,7 @@ const Login = ({navigation}: Props) => {
           onPress={() => {
             login('dev.yakuza@gmail.com', 'password');
           }}>
-          <Text>로그인</Text>
+          <Text style={{color: '#ffff', fontSize: 15}}>로그인</Text>
         </TouchableOpacity>
         <SignupText>
           계정이 없으신가요?{' '}
