@@ -31,7 +31,7 @@ const Logo = Styled.Text`
 
 const PasswordReset = Styled.Text`
   width: 100%;
-  color: #37ef84;
+  color: #89e03d;
   text-align: right;
   margin-bottom: 24px;
 `;
@@ -41,7 +41,7 @@ const SignupText = Styled.Text`
   text-align: center;
 `;
 const SignupLink = Styled.Text`
-  color: #37ef84;
+  color: #89e03d;
 `;
 
 const Footer = Styled.View`
@@ -82,7 +82,7 @@ const Login = ({navigation}: Props) => {
         </PasswordReset>
         <TouchableOpacity
           style={{
-            backgroundColor: '#37ef84',
+            backgroundColor: '#89e03d',
             marginBottom: 24,
             width: 230,
             height: 40,

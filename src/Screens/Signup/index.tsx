@@ -38,7 +38,7 @@ const FooterDescription = Styled.Text`
   text-align: center;
 `;
 const GoBack = Styled.Text`
-  color: #37ef84;
+  color: #89e03d;
 `;
 
 type NavigationProp = StackNavigationProp<LoginNaviParamList, 'Signup'>;
